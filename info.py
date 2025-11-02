@@ -79,7 +79,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'dreamcinezone_files') # Collec
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), False) # Type True For Turn On MULTIPLE DB FUNTION 
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://AAdarsh751091_222:Adarsh12345666@cluster0.layeh1l.mongodb.net/?appName=Cluster0")  # MongoDB URI for the second database (if MULTIPLE_DB is True)
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://mongodborgcomadarsh1122:mongodborgcomadarsh112233@cluster0.dur6eyu.mongodb.net/?appName=Cluster0")  # MongoDB URI for the second database (if MULTIPLE_DB is True)
 # ============================
 # Movie Notification & Update Settings
 # ============================
